@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logisticyan - Rainlog</title>
+
+
+
+    <style>
+   
+        .Seccion {
+            display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                background-color: rgb(185, 222, 255);
+                background-size: cover;
+                min-height: 100vh;
+        }
+
+        .Articulo {
+            width: 800px;
+            height: 600px;
+            background: linear-gradient(to left, rgb(124, 151, 151), rgb(255, 255, 255));
+            padding: 5px;
+            border: 5px solid rgb(5, 9, 32);
+            margin: 40px;
+            position: relative;
+            
+        }
+
+      .logo {
+            width: 200px;
+            height: 200px;
+            float: right;
+            margin-right: 10px;
+            margin-top: 10px;
+        }
+
+        .Titulos {
+            color: rgb(0, 0, 0);
+            text-align:left;
+            margin-left: 20px;
+            margin-top: 20px;
+            text-shadow: 2px 2px 5px rgb(255, 255, 255);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 70px;
+        }
+
+        label{
+            display:inline-block;
+            font-size: 30px;
+            }
+
+        input{width: 200px;
+            padding: 10px;
+            margin-left: 100px;
+            }
+
+        .grupo{margin-bottom: 20px;
+            margin-left: 70px;
+    
+            }
+
+    
+    </style>
+</head>
+
+
+
+<body>
+    <section class="Seccion">
+        <article class="Articulo">
+
+            <img src="logo logisticyan 4.PNG" alt="logo empresa" class="logo">
+            <h1 class="Titulos">LogisticYan</h1>
+           
+               <form id="formLogin" onsubmit="event.preventDefault(); alert('Esta es una demostración visual de RainLog. El inicio de sesión no está habilitado.');">
+
+                    <div class="grupo">
+                        <label for="usuario" style="display: inline-block; width: 80px;">
+                            <u>Usuario:</u>
+                        </label>
+
+                        <input
+                            type="number"
+                            id="usuario"
+                            name="documento"
+                            style="margin-top: 150PX;">
+                    </div>
+
+                    <div class="grupo">
+                        <label for="password" style="display: inline-block; width: 80px;">
+                            <u>Contraseña:</u>
+                        </label>
+
+                        <input
+                            type="password"
+                            id="password"
+                            name="contrasena">
+                    </div>
+
+                    <div class="grupo">
+
+                        <button
+                            type="submit"
+                            style="display:block;
+                                margin-top: 10px;
+                                margin-left: 185px;
+                                background-color: rgb(255, 255, 255);
+                                border-radius: 10px;
+                                width: 150px;
+                                height: 50px;">
+                            Ingresar
+                        </button>
+
+                    </div>
+
+                </form>
+
+
+
+
+
+
+</body>
+</html>
